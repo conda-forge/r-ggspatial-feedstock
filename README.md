@@ -1,11 +1,11 @@
-About r-ggspatial
-=================
+About r-ggspatial-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggspatial-feedstock/blob/main/LICENSE.txt)
 
 Home: https://paleolimbot.github.io/ggspatial/, https://github.com/paleolimbot/ggspatial
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggspatial-feedstock/blob/main/LICENSE.txt)
 
 Summary: Spatial data plus the power of the ggplot2 framework means easier mapping when input data are already in the form of spatial objects.
 
