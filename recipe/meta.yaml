@@ -1,4 +1,4 @@
-{% set version = "1.1.8" %}
+{% set version = "1.1.9" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggspatial_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggspatial/ggspatial_{{ version }}.tar.gz
-  sha256: 7f8b81ca00e9a01b5ef3ce45f68db59ebfba3dabcd83813bbe28e2982c79a55b
+  sha256: 170d0a9a9ef22f69d85b30cacea8bd3eb2e710342aad5a10dbc84b3606730393
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
