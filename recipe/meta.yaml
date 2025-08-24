@@ -1,4 +1,4 @@
-{% set version = "1.1.9" %}
+{% set version = "1.1.10" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggspatial_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggspatial/ggspatial_{{ version }}.tar.gz
-  sha256: 170d0a9a9ef22f69d85b30cacea8bd3eb2e710342aad5a10dbc84b3606730393
+  sha256: 04a7a40293c4fd83342b7ff02c6207a8157bdf628ce543854af011b14457b11f
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
